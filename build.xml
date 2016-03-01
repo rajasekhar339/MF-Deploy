@@ -11,8 +11,8 @@
   </target>
   <target name="deploy" depends="init">
     <wladm url="http://172.17.0.177:9081/wladmin" secure="false" user="admin" password="admin">
-      <delete-app runtime="worklight_5" app="UCDTest-all.wlapp"/>
-      <delete-adapter runtime="worklight_5" adapter="DemoAdapter.adapter"/>
+      <delete-app runtime="worklight_5" app-name="UCDTest-all.wlapp"/>
+      <delete-adapter runtime="worklight_5" adapter-name="DemoAdapter.adapter"/>
       <deploy-app runtime="worklight_5" file="C:\Program Files\agent\var\work\MF-Int-Comp\UCDTest-all.wlapp"/>
       <deploy-adapter runtime="worklight_5" file="C:\Program Files\agent\var\work\MF-Int-Comp\DemoAdapter.adapter"/>
      </wladm>

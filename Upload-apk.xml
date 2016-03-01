@@ -1,4 +1,4 @@
-<project  basedir="." default="upload.AllApps">
+<project  basedir="." default="upload.App">
 
   <property name="install.dir" value="../../" />
   <property name="workspace.root" value="../../" />

@@ -31,15 +31,5 @@
       forceOverwrite="${force}"
       file="${upload.file}" />
     </target>
-    <target name="upload.AllApps" description="Uploads all found APK and IPA files" depends="upload.init">
-    <uploadapps serverPath="${server.path}"
-      loginUser="${login.user}"
-      loginPass="${login.pass}"
-      forceOverwrite="${force}"
-       context="${context.path}" >
-      <fileset dir="${workspace.root}">
-        <include name="**/*.ipa" />
-      </fileset>
-    </uploadapps>
-  </target>
+  
 </project>

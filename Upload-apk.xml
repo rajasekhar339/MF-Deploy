@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project name="PureMeapAntDeployTask" basedir="." default="upload.AllApps">
+<project  basedir="." default="upload.AllApps">
 
   <property name="install.dir" value="../../" />
   <property name="workspace.root" value="../../" />
